@@ -1,0 +1,5 @@
+adityavm.vscode-monokai-seti@0.0.5
+jmfirth.vsc-space-block-jumper@1.2.2
+ms-python.python@2020.1.58038
+ms-vscode.cpptools@0.26.3
+Shan.code-settings-sync@3.4.3
