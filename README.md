@@ -14,3 +14,10 @@ git clone https://github.com/PiyushDatta/User.git ~/.config/Code/User
 I have a list of extensions you can download named ```vs_code_extensions_list.txt```, you can then make sure to download this file into ```~/.vscode/extensions``` by doing:
 
 ```cat vs_code_extensions_list.txt | xargs -n 1 code --install-extension```
+
+# How it looks
+with the sidemenus:
+<img src="git_images/vscode_with_sidemenus.png"/>
+
+without the sidemenus:
+<img src="git_images/vscode_without_sidemenus.png"/>
