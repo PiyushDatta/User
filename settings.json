@@ -32,4 +32,17 @@
 		"tab.unfocusedInactiveForeground": "#777777",
         "tab.unfocusedActiveBorder": "#777777",
     },
+    "editor.tokenColorCustomizations": {
+        // comments color
+        "comments": "#74715E",
+        // triple quotes for python
+        "textMateRules": [
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#74715E"
+                }
+            }
+        ]
+    },
 }
