@@ -7,6 +7,7 @@
     "sync.gist": "fc00e3fca300ee9e8b1a9a4ffacc4ee4",
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "hidden",
+    "workbench.activityBar.visible": true,
     // visual
     "workbench.colorCustomizations": {
         "editor.background": "#15191b",
@@ -28,7 +29,6 @@
 		"tab.border": "#1d242c",
 		"tab.unfocusedActiveForeground": "#d1d4d3AA",
 		"tab.unfocusedInactiveForeground": "#777777",
-		"tab.unfocusedActiveBorder": "#777777",
+        "tab.unfocusedActiveBorder": "#777777",
     },
-    "workbench.activityBar.visible": true,
 }
