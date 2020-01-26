@@ -110,6 +110,11 @@
         "when": "textInputFocus"
     },
     {
+        "key": "alt+x",
+        "command": "editor.action.clipboardCutAction",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
         "key": "ctrl+shift+x",
         "command": "editor.action.clipboardCutAction",
         "when": "textInputFocus && !editorReadonly"
