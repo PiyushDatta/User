@@ -30,5 +30,5 @@
 		"tab.unfocusedInactiveForeground": "#777777",
 		"tab.unfocusedActiveBorder": "#777777",
     },
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
 }
