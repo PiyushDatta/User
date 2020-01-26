@@ -244,4 +244,63 @@
         "command": "cursorBottom",
         "when": "textInputFocus"
     },
+    // open file in workspace
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.quickOpen"
+    },
+    // new window
+    {
+        "key": "ctrl+shift+alt+n",
+        "command": "workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    },
+    // go to sidebar/treemenu
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.focusSideBar"
+    },
+    // go to main window (1)
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    // go to window 2
+    {
+        "key": "ctrl+3",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "alt+3",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    // go to window 3
+    {
+        "key": "ctrl+4",
+        "command": "workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "alt+4",
+        "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    // go to window 4
+    {
+        "key": "ctrl+5",
+        "command": "workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "alt+5",
+        "command": "-workbench.action.focusFourthEditorGroup"
+    },
 ]

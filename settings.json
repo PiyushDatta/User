@@ -4,8 +4,9 @@
     "workbench.colorTheme": "Monokai",
     "window.enableMenuBarMnemonics": false,
     "breadcrumbs.enabled": false,
-    "sync.gist": "something",
+    "sync.gist": "fc00e3fca300ee9e8b1a9a4ffacc4ee4",
     "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 0,
     "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": true,
     // visual
