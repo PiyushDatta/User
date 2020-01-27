@@ -16,9 +16,32 @@
         "python": "echo && python3 $fullFileName"
     },
     // prettier extension
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // exclude from search
+    "search.exclude": {
+        "**/android/app/build": true, // RN Android build folder
+        "**/bower_components": true, // Bower
+        "**/ios/build": true, // RN iOS build folder
+        "**/ios/Pods": true, // iOS Pods code
+        // "**/lib": true, // Compiled javascript
+        "**/node_modules": true // NPM
+    },
+    // Python
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=80",
+        "--indent-size=2"
+    ],
+    "python.pythonPath": "python3",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        // "editor.formatOnPaste": false
     },
     // visual
     "workbench.colorCustomizations": {
