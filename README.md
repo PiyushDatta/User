@@ -15,7 +15,14 @@ I have a list of extensions you can download named ```vs_code_extensions_list.tx
 
 ```cat vs_code_extensions_list.txt | xargs -n 1 code --install-extension```
 
+# Other
+
+To get the list of extensions:
+  1. ```cd ~/.config/Code/User```
+  2. ```code --list-extensions >> vs_code_extensions_list.txt```
+
 # How it looks
+
 with the sidemenus:
 <img src="git_images/vscode_with_sidemenus.png"/>
 
