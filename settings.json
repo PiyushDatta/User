@@ -4,11 +4,22 @@
     "workbench.colorTheme": "Monokai",
     "window.enableMenuBarMnemonics": false,
     "breadcrumbs.enabled": false,
-    "sync.gist": "something",
+    "sync.gist": "fc00e3fca300ee9e8b1a9a4ffacc4ee4",
     "editor.minimap.enabled": false,
     "explorer.openEditors.visible": 0,
     "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": true,
+    //running code
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "mkdir -p $dir\\out && clang++ -Wall -std=c++14 -o $dir\\out/$fileNameWithoutExt $fullFileName && echo && $dir\\out/$fileNameWithoutExt",
+        "python": "echo && python3 $fullFileName"
+    },
+    // prettier extension
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     // visual
     "workbench.colorCustomizations": {
         "editor.background": "#15191b",

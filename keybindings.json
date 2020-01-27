@@ -276,31 +276,62 @@
         "key": "alt+2",
         "command": "workbench.action.focusFirstEditorGroup"
     },
-    // go to window 2
+    // go to terminal
     {
         "key": "ctrl+3",
-        "command": "workbench.action.focusSecondEditorGroup"
+        "command": "workbench.action.terminal.focus"
     },
     {
         "key": "alt+3",
+        "command": "workbench.action.terminal.focus"
+    },
+    // close terminal
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.closePanel"
+    },
+    // go to window 2
+    {
+        "key": "ctrl+4",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "alt+4",
         "command": "-workbench.action.focusSecondEditorGroup"
     },
     // go to window 3
     {
-        "key": "ctrl+4",
+        "key": "ctrl+5",
         "command": "workbench.action.focusThirdEditorGroup"
     },
     {
-        "key": "alt+4",
+        "key": "alt+5",
         "command": "-workbench.action.focusThirdEditorGroup"
     },
     // go to window 4
     {
-        "key": "ctrl+5",
+        "key": "ctrl+6",
         "command": "workbench.action.focusFourthEditorGroup"
     },
     {
-        "key": "alt+5",
+        "key": "alt+6",
         "command": "-workbench.action.focusFourthEditorGroup"
+    },
+    // run code, uses extension code runner
+    {
+        "key": "ctrl+b",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "alt+b",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "code-runner.run"
     },
 ]
