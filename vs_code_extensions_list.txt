@@ -12,3 +12,12 @@ ms-python.python
 ms-vscode.cpptools
 Shan.code-settings-sync
 xaver.clang-format
+adityavm.vscode-monokai-seti
+esbenp.prettier-vscode
+formulahendry.code-runner
+foxundermoon.shell-format
+jmfirth.vsc-space-block-jumper
+ms-python.python
+ms-vscode.cpptools
+Shan.code-settings-sync
+xaver.clang-format
