@@ -234,13 +234,13 @@
     },
     // move cursor to top of page
     {
-        "key": "ctrl-x shift-.",
+        "key": "ctrl-x shift-,",
         "command": "cursorTop",
         "when": "textInputFocus"
     },
     // move cursor to bottom of page
     {
-        "key": "ctrl-x shift-,",
+        "key": "ctrl-x shift-.",
         "command": "cursorBottom",
         "when": "textInputFocus"
     },
